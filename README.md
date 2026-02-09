@@ -12,3 +12,7 @@ install instruction
 2 cd ~/toadscwm
 3 chmod +x install.sh
 4 ./install.sh
+
+
+
+DO NOT USE A DISPLAY MANAGER YOU MUST USE STARTX 
