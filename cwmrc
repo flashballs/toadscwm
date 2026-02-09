@@ -1,0 +1,36 @@
+fontname "Terminess Nerd Font:pixelsize=20:bold"
+color inactiveborder "#D8DEE9"
+color activeborder "#88C0D0"
+borderwidth 2
+
+color font "#D8DEE9"
+color selfont "#2E3340"
+color menubg "#2E3440"
+color menufg "#D8DEE9"
+
+sticky yes   
+snapdist 4
+gap 0 29 0 0
+
+command Xterm "xterm"
+command Firefox "firefox"
+command Minecraft "prismlauncher"
+command MidnightCommander "xterm -e mc"
+ignore polybar
+
+bind-key 4-f firefox
+bind-key 4-t terminal
+
+bind-key 4-q window-close
+bind-key 4-r menu-exec
+bind-key 4-u window-fullscreen
+bind-key 4-h window-htile
+bind-key 4-z window-vtile
+bind-key 4S-r restart
+bind-key 4S-q quit
+bind-key 4-m window-maximize
+bind-key 4-Tab window-cycle
+
+bind-mouse 4-1 window-move
+bind-mouse 4-3 window-resize
+
